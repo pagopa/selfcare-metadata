@@ -50,7 +50,7 @@ wmt5I4A2AogI0jA9v0Q9CZtVE6l1haXz/dbJJ2s/NM8jCfKNNDvgAym1T2c3R+Lm
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
     <AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api-pnpg.selfcare.pagopa.it/spid/v1/acs"/>
     <AttributeConsumingService index="0">
-      <ServiceName xml:lang="it">Selfcare Portal</ServiceName>
+      <ServiceName xml:lang="it">Portale Notifiche Digitali Imprese</ServiceName>
       <RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
@@ -59,14 +59,14 @@ wmt5I4A2AogI0jA9v0Q9CZtVE6l1haXz/dbJJ2s/NM8jCfKNNDvgAym1T2c3R+Lm
   <Organization>
     <OrganizationName xml:lang="it">PagoPA</OrganizationName>
     <OrganizationDisplayName xml:lang="it">PagoPA S.p.A</OrganizationDisplayName>
-    <OrganizationURL xml:lang="it">https://pagopa.gov.it</OrganizationURL>
+    <OrganizationURL xml:lang="it">https://www.pagopa.it</OrganizationURL>
   </Organization>
   <ContactPerson contactType="other" spid:EntityType="spid:aggregator">
     <Extensions>
       <spid:IPACode>PagoPA3</spid:IPACode>
       <spid:VATNumber>IT15376371009</spid:VATNumber>
       <spid:FiscalCode>15376371009</spid:FiscalCode>
-      <spid:PublicServicesFullOperator/>
+      <spid:Public/>
     </Extensions>
     <Company>PagoPA</Company>
     <EmailAddress>pagopa@pec.governo.it</EmailAddress>
