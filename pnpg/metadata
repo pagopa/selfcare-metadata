@@ -50,7 +50,7 @@ wmt5I4A2AogI0jA9v0Q9CZtVE6l1haXz/dbJJ2s/NM8jCfKNNDvgAym1T2c3R+Lm
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
     <AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api-pnpg.selfcare.pagopa.it/spid/v1/acs"/>
     <AttributeConsumingService index="0">
-      <ServiceName xml:lang="it">Portale Notifiche Digitali Imprese</ServiceName>
+      <ServiceName xml:lang="it">Selfcare Portal</ServiceName>
       <RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
       <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
